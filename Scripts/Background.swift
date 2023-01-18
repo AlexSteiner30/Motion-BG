@@ -15,7 +15,7 @@ var count = 0
 func LoadBackground(){
     while true{
         do{
-            if count > 5{
+            if count > 65{
                 count = 0
             }
             
@@ -24,7 +24,7 @@ func LoadBackground(){
             
             count+=1
             
-            usleep(80000)
+            usleep(40000)
         }
         catch{
             print("Error")
