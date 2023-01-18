@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FADB794B297777BD00F3EA39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB794A297777BD00F3EA39 /* AppDelegate.swift */; };
-		FADB794D297777BD00F3EA39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB794C297777BD00F3EA39 /* ViewController.swift */; };
-		FADB794F297777BE00F3EA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADB794E297777BE00F3EA39 /* Assets.xcassets */; };
-		FADB7952297777BE00F3EA39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADB7950297777BE00F3EA39 /* Main.storyboard */; };
-		FADB795D297777BE00F3EA39 /* Motion_BGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB795C297777BE00F3EA39 /* Motion_BGTests.swift */; };
-		FADB7967297777BE00F3EA39 /* Motion_BGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB7966297777BE00F3EA39 /* Motion_BGUITests.swift */; };
-		FADB7969297777BE00F3EA39 /* Motion_BGUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB7968297777BE00F3EA39 /* Motion_BGUITestsLaunchTests.swift */; };
-		FADB797C29777B1D00F3EA39 /* BackgroundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB797B29777B1D00F3EA39 /* BackgroundManager.swift */; };
-		FADB797E29777B3500F3EA39 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB797D29777B3500F3EA39 /* Manager.swift */; };
+		FA85DA192977889D00FE8B88 /* Motion_BGApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85DA182977889D00FE8B88 /* Motion_BGApp.swift */; };
+		FA85DA1B2977889D00FE8B88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85DA1A2977889D00FE8B88 /* ContentView.swift */; };
+		FA85DA1D2977889E00FE8B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA85DA1C2977889E00FE8B88 /* Assets.xcassets */; };
+		FA85DA202977889E00FE8B88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA85DA1F2977889E00FE8B88 /* Preview Assets.xcassets */; };
+		FA85DA2B2977889E00FE8B88 /* Motion_BGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85DA2A2977889E00FE8B88 /* Motion_BGTests.swift */; };
+		FA85DA352977889E00FE8B88 /* Motion_BGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85DA342977889E00FE8B88 /* Motion_BGUITests.swift */; };
+		FA85DA372977889E00FE8B88 /* Motion_BGUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85DA362977889E00FE8B88 /* Motion_BGUITestsLaunchTests.swift */; };
+		FA85DA482977893500FE8B88 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85DA472977893500FE8B88 /* Background.swift */; };
+		FA85DA4E29778AD200FE8B88 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85DA4D29778AD200FE8B88 /* Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FADB7959297777BE00F3EA39 /* PBXContainerItemProxy */ = {
+		FA85DA272977889E00FE8B88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FADB793F297777BD00F3EA39 /* Project object */;
+			containerPortal = FA85DA0D2977889D00FE8B88 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FADB7946297777BD00F3EA39;
+			remoteGlobalIDString = FA85DA142977889D00FE8B88;
 			remoteInfo = "Motion BG";
 		};
-		FADB7963297777BE00F3EA39 /* PBXContainerItemProxy */ = {
+		FA85DA312977889E00FE8B88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FADB793F297777BD00F3EA39 /* Project object */;
+			containerPortal = FA85DA0D2977889D00FE8B88 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FADB7946297777BD00F3EA39;
+			remoteGlobalIDString = FA85DA142977889D00FE8B88;
 			remoteInfo = "Motion BG";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FADB7947297777BD00F3EA39 /* Motion BG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Motion BG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FADB794A297777BD00F3EA39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FADB794C297777BD00F3EA39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FADB794E297777BE00F3EA39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FADB7951297777BE00F3EA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FADB7953297777BE00F3EA39 /* Motion_BG.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Motion_BG.entitlements; sourceTree = "<group>"; };
-		FADB7958297777BE00F3EA39 /* Motion BGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Motion BGTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FADB795C297777BE00F3EA39 /* Motion_BGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_BGTests.swift; sourceTree = "<group>"; };
-		FADB7962297777BE00F3EA39 /* Motion BGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Motion BGUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FADB7966297777BE00F3EA39 /* Motion_BGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_BGUITests.swift; sourceTree = "<group>"; };
-		FADB7968297777BE00F3EA39 /* Motion_BGUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_BGUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FADB797B29777B1D00F3EA39 /* BackgroundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundManager.swift; sourceTree = "<group>"; };
-		FADB797D29777B3500F3EA39 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		FA85DA152977889D00FE8B88 /* Motion BG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Motion BG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA85DA182977889D00FE8B88 /* Motion_BGApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_BGApp.swift; sourceTree = "<group>"; };
+		FA85DA1A2977889D00FE8B88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA85DA1C2977889E00FE8B88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA85DA1F2977889E00FE8B88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA85DA212977889E00FE8B88 /* Motion_BG.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Motion_BG.entitlements; sourceTree = "<group>"; };
+		FA85DA262977889E00FE8B88 /* Motion BGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Motion BGTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA85DA2A2977889E00FE8B88 /* Motion_BGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_BGTests.swift; sourceTree = "<group>"; };
+		FA85DA302977889E00FE8B88 /* Motion BGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Motion BGUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA85DA342977889E00FE8B88 /* Motion_BGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_BGUITests.swift; sourceTree = "<group>"; };
+		FA85DA362977889E00FE8B88 /* Motion_BGUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_BGUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA85DA472977893500FE8B88 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		FA85DA4D29778AD200FE8B88 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FADB7944297777BD00F3EA39 /* Frameworks */ = {
+		FA85DA122977889D00FE8B88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FADB7955297777BE00F3EA39 /* Frameworks */ = {
+		FA85DA232977889E00FE8B88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FADB795F297777BE00F3EA39 /* Frameworks */ = {
+		FA85DA2D2977889E00FE8B88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,61 +76,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FADB793E297777BD00F3EA39 = {
+		FA85DA0C2977889D00FE8B88 = {
 			isa = PBXGroup;
 			children = (
-				FADB797A29777AF700F3EA39 /* Scripts */,
-				FADB7949297777BD00F3EA39 /* Motion BG */,
-				FADB795B297777BE00F3EA39 /* Motion BGTests */,
-				FADB7965297777BE00F3EA39 /* Motion BGUITests */,
-				FADB7948297777BD00F3EA39 /* Products */,
+				FA85DA4C297789CF00FE8B88 /* Scripts */,
+				FA85DA172977889D00FE8B88 /* Motion BG */,
+				FA85DA292977889E00FE8B88 /* Motion BGTests */,
+				FA85DA332977889E00FE8B88 /* Motion BGUITests */,
+				FA85DA162977889D00FE8B88 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FADB7948297777BD00F3EA39 /* Products */ = {
+		FA85DA162977889D00FE8B88 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FADB7947297777BD00F3EA39 /* Motion BG.app */,
-				FADB7958297777BE00F3EA39 /* Motion BGTests.xctest */,
-				FADB7962297777BE00F3EA39 /* Motion BGUITests.xctest */,
+				FA85DA152977889D00FE8B88 /* Motion BG.app */,
+				FA85DA262977889E00FE8B88 /* Motion BGTests.xctest */,
+				FA85DA302977889E00FE8B88 /* Motion BGUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FADB7949297777BD00F3EA39 /* Motion BG */ = {
+		FA85DA172977889D00FE8B88 /* Motion BG */ = {
 			isa = PBXGroup;
 			children = (
-				FADB794A297777BD00F3EA39 /* AppDelegate.swift */,
-				FADB794C297777BD00F3EA39 /* ViewController.swift */,
-				FADB794E297777BE00F3EA39 /* Assets.xcassets */,
-				FADB7950297777BE00F3EA39 /* Main.storyboard */,
-				FADB7953297777BE00F3EA39 /* Motion_BG.entitlements */,
+				FA85DA182977889D00FE8B88 /* Motion_BGApp.swift */,
+				FA85DA1A2977889D00FE8B88 /* ContentView.swift */,
+				FA85DA1C2977889E00FE8B88 /* Assets.xcassets */,
+				FA85DA212977889E00FE8B88 /* Motion_BG.entitlements */,
+				FA85DA1E2977889E00FE8B88 /* Preview Content */,
 			);
 			path = "Motion BG";
 			sourceTree = "<group>";
 		};
-		FADB795B297777BE00F3EA39 /* Motion BGTests */ = {
+		FA85DA1E2977889E00FE8B88 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FADB795C297777BE00F3EA39 /* Motion_BGTests.swift */,
+				FA85DA1F2977889E00FE8B88 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA85DA292977889E00FE8B88 /* Motion BGTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA85DA2A2977889E00FE8B88 /* Motion_BGTests.swift */,
 			);
 			path = "Motion BGTests";
 			sourceTree = "<group>";
 		};
-		FADB7965297777BE00F3EA39 /* Motion BGUITests */ = {
+		FA85DA332977889E00FE8B88 /* Motion BGUITests */ = {
 			isa = PBXGroup;
 			children = (
-				FADB7966297777BE00F3EA39 /* Motion_BGUITests.swift */,
-				FADB7968297777BE00F3EA39 /* Motion_BGUITestsLaunchTests.swift */,
+				FA85DA342977889E00FE8B88 /* Motion_BGUITests.swift */,
+				FA85DA362977889E00FE8B88 /* Motion_BGUITestsLaunchTests.swift */,
 			);
 			path = "Motion BGUITests";
 			sourceTree = "<group>";
 		};
-		FADB797A29777AF700F3EA39 /* Scripts */ = {
+		FA85DA4C297789CF00FE8B88 /* Scripts */ = {
 			isa = PBXGroup;
 			children = (
-				FADB797B29777B1D00F3EA39 /* BackgroundManager.swift */,
-				FADB797D29777B3500F3EA39 /* Manager.swift */,
+				FA85DA472977893500FE8B88 /* Background.swift */,
+				FA85DA4D29778AD200FE8B88 /* Manager.swift */,
 			);
 			path = Scripts;
 			sourceTree = "<group>";
@@ -138,13 +146,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FADB7946297777BD00F3EA39 /* Motion BG */ = {
+		FA85DA142977889D00FE8B88 /* Motion BG */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FADB796C297777BE00F3EA39 /* Build configuration list for PBXNativeTarget "Motion BG" */;
+			buildConfigurationList = FA85DA3A2977889E00FE8B88 /* Build configuration list for PBXNativeTarget "Motion BG" */;
 			buildPhases = (
-				FADB7943297777BD00F3EA39 /* Sources */,
-				FADB7944297777BD00F3EA39 /* Frameworks */,
-				FADB7945297777BD00F3EA39 /* Resources */,
+				FA85DA112977889D00FE8B88 /* Sources */,
+				FA85DA122977889D00FE8B88 /* Frameworks */,
+				FA85DA132977889D00FE8B88 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -152,69 +160,69 @@
 			);
 			name = "Motion BG";
 			productName = "Motion BG";
-			productReference = FADB7947297777BD00F3EA39 /* Motion BG.app */;
+			productReference = FA85DA152977889D00FE8B88 /* Motion BG.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FADB7957297777BE00F3EA39 /* Motion BGTests */ = {
+		FA85DA252977889E00FE8B88 /* Motion BGTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FADB796F297777BE00F3EA39 /* Build configuration list for PBXNativeTarget "Motion BGTests" */;
+			buildConfigurationList = FA85DA3D2977889E00FE8B88 /* Build configuration list for PBXNativeTarget "Motion BGTests" */;
 			buildPhases = (
-				FADB7954297777BE00F3EA39 /* Sources */,
-				FADB7955297777BE00F3EA39 /* Frameworks */,
-				FADB7956297777BE00F3EA39 /* Resources */,
+				FA85DA222977889E00FE8B88 /* Sources */,
+				FA85DA232977889E00FE8B88 /* Frameworks */,
+				FA85DA242977889E00FE8B88 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FADB795A297777BE00F3EA39 /* PBXTargetDependency */,
+				FA85DA282977889E00FE8B88 /* PBXTargetDependency */,
 			);
 			name = "Motion BGTests";
 			productName = "Motion BGTests";
-			productReference = FADB7958297777BE00F3EA39 /* Motion BGTests.xctest */;
+			productReference = FA85DA262977889E00FE8B88 /* Motion BGTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FADB7961297777BE00F3EA39 /* Motion BGUITests */ = {
+		FA85DA2F2977889E00FE8B88 /* Motion BGUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FADB7972297777BE00F3EA39 /* Build configuration list for PBXNativeTarget "Motion BGUITests" */;
+			buildConfigurationList = FA85DA402977889E00FE8B88 /* Build configuration list for PBXNativeTarget "Motion BGUITests" */;
 			buildPhases = (
-				FADB795E297777BE00F3EA39 /* Sources */,
-				FADB795F297777BE00F3EA39 /* Frameworks */,
-				FADB7960297777BE00F3EA39 /* Resources */,
+				FA85DA2C2977889E00FE8B88 /* Sources */,
+				FA85DA2D2977889E00FE8B88 /* Frameworks */,
+				FA85DA2E2977889E00FE8B88 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FADB7964297777BE00F3EA39 /* PBXTargetDependency */,
+				FA85DA322977889E00FE8B88 /* PBXTargetDependency */,
 			);
 			name = "Motion BGUITests";
 			productName = "Motion BGUITests";
-			productReference = FADB7962297777BE00F3EA39 /* Motion BGUITests.xctest */;
+			productReference = FA85DA302977889E00FE8B88 /* Motion BGUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FADB793F297777BD00F3EA39 /* Project object */ = {
+		FA85DA0D2977889D00FE8B88 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					FADB7946297777BD00F3EA39 = {
+					FA85DA142977889D00FE8B88 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					FADB7957297777BE00F3EA39 = {
+					FA85DA252977889E00FE8B88 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = FADB7946297777BD00F3EA39;
+						TestTargetID = FA85DA142977889D00FE8B88;
 					};
-					FADB7961297777BE00F3EA39 = {
+					FA85DA2F2977889E00FE8B88 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = FADB7946297777BD00F3EA39;
+						TestTargetID = FA85DA142977889D00FE8B88;
 					};
 				};
 			};
-			buildConfigurationList = FADB7942297777BD00F3EA39 /* Build configuration list for PBXProject "Motion BG" */;
+			buildConfigurationList = FA85DA102977889D00FE8B88 /* Build configuration list for PBXProject "Motion BG" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,36 +230,36 @@
 				en,
 				Base,
 			);
-			mainGroup = FADB793E297777BD00F3EA39;
-			productRefGroup = FADB7948297777BD00F3EA39 /* Products */;
+			mainGroup = FA85DA0C2977889D00FE8B88;
+			productRefGroup = FA85DA162977889D00FE8B88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FADB7946297777BD00F3EA39 /* Motion BG */,
-				FADB7957297777BE00F3EA39 /* Motion BGTests */,
-				FADB7961297777BE00F3EA39 /* Motion BGUITests */,
+				FA85DA142977889D00FE8B88 /* Motion BG */,
+				FA85DA252977889E00FE8B88 /* Motion BGTests */,
+				FA85DA2F2977889E00FE8B88 /* Motion BGUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FADB7945297777BD00F3EA39 /* Resources */ = {
+		FA85DA132977889D00FE8B88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADB794F297777BE00F3EA39 /* Assets.xcassets in Resources */,
-				FADB7952297777BE00F3EA39 /* Main.storyboard in Resources */,
+				FA85DA202977889E00FE8B88 /* Preview Assets.xcassets in Resources */,
+				FA85DA1D2977889E00FE8B88 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FADB7956297777BE00F3EA39 /* Resources */ = {
+		FA85DA242977889E00FE8B88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FADB7960297777BE00F3EA39 /* Resources */ = {
+		FA85DA2E2977889E00FE8B88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,62 +269,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FADB7943297777BD00F3EA39 /* Sources */ = {
+		FA85DA112977889D00FE8B88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADB797C29777B1D00F3EA39 /* BackgroundManager.swift in Sources */,
-				FADB794D297777BD00F3EA39 /* ViewController.swift in Sources */,
-				FADB794B297777BD00F3EA39 /* AppDelegate.swift in Sources */,
-				FADB797E29777B3500F3EA39 /* Manager.swift in Sources */,
+				FA85DA1B2977889D00FE8B88 /* ContentView.swift in Sources */,
+				FA85DA192977889D00FE8B88 /* Motion_BGApp.swift in Sources */,
+				FA85DA482977893500FE8B88 /* Background.swift in Sources */,
+				FA85DA4E29778AD200FE8B88 /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FADB7954297777BE00F3EA39 /* Sources */ = {
+		FA85DA222977889E00FE8B88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADB795D297777BE00F3EA39 /* Motion_BGTests.swift in Sources */,
+				FA85DA2B2977889E00FE8B88 /* Motion_BGTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FADB795E297777BE00F3EA39 /* Sources */ = {
+		FA85DA2C2977889E00FE8B88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADB7967297777BE00F3EA39 /* Motion_BGUITests.swift in Sources */,
-				FADB7969297777BE00F3EA39 /* Motion_BGUITestsLaunchTests.swift in Sources */,
+				FA85DA352977889E00FE8B88 /* Motion_BGUITests.swift in Sources */,
+				FA85DA372977889E00FE8B88 /* Motion_BGUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FADB795A297777BE00F3EA39 /* PBXTargetDependency */ = {
+		FA85DA282977889E00FE8B88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FADB7946297777BD00F3EA39 /* Motion BG */;
-			targetProxy = FADB7959297777BE00F3EA39 /* PBXContainerItemProxy */;
+			target = FA85DA142977889D00FE8B88 /* Motion BG */;
+			targetProxy = FA85DA272977889E00FE8B88 /* PBXContainerItemProxy */;
 		};
-		FADB7964297777BE00F3EA39 /* PBXTargetDependency */ = {
+		FA85DA322977889E00FE8B88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FADB7946297777BD00F3EA39 /* Motion BG */;
-			targetProxy = FADB7963297777BE00F3EA39 /* PBXContainerItemProxy */;
+			target = FA85DA142977889D00FE8B88 /* Motion BG */;
+			targetProxy = FA85DA312977889E00FE8B88 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		FADB7950297777BE00F3EA39 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FADB7951297777BE00F3EA39 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		FADB796A297777BE00F3EA39 /* Debug */ = {
+		FA85DA382977889E00FE8B88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		FADB796B297777BE00F3EA39 /* Release */ = {
+		FA85DA392977889E00FE8B88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -429,7 +426,7 @@
 			};
 			name = Release;
 		};
-		FADB796D297777BE00F3EA39 /* Debug */ = {
+		FA85DA3B2977889E00FE8B88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -438,12 +435,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Motion BG/Preview Content\"";
 				DEVELOPMENT_TEAM = 6F3P8KZJAM;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -456,7 +453,7 @@
 			};
 			name = Debug;
 		};
-		FADB796E297777BE00F3EA39 /* Release */ = {
+		FA85DA3C2977889E00FE8B88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -465,12 +462,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Motion BG/Preview Content\"";
 				DEVELOPMENT_TEAM = 6F3P8KZJAM;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -483,7 +480,7 @@
 			};
 			name = Release;
 		};
-		FADB7970297777BE00F3EA39 /* Debug */ = {
+		FA85DA3E2977889E00FE8B88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -502,7 +499,7 @@
 			};
 			name = Debug;
 		};
-		FADB7971297777BE00F3EA39 /* Release */ = {
+		FA85DA3F2977889E00FE8B88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -521,7 +518,7 @@
 			};
 			name = Release;
 		};
-		FADB7973297777BE00F3EA39 /* Debug */ = {
+		FA85DA412977889E00FE8B88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -538,7 +535,7 @@
 			};
 			name = Debug;
 		};
-		FADB7974297777BE00F3EA39 /* Release */ = {
+		FA85DA422977889E00FE8B88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -558,43 +555,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FADB7942297777BD00F3EA39 /* Build configuration list for PBXProject "Motion BG" */ = {
+		FA85DA102977889D00FE8B88 /* Build configuration list for PBXProject "Motion BG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FADB796A297777BE00F3EA39 /* Debug */,
-				FADB796B297777BE00F3EA39 /* Release */,
+				FA85DA382977889E00FE8B88 /* Debug */,
+				FA85DA392977889E00FE8B88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FADB796C297777BE00F3EA39 /* Build configuration list for PBXNativeTarget "Motion BG" */ = {
+		FA85DA3A2977889E00FE8B88 /* Build configuration list for PBXNativeTarget "Motion BG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FADB796D297777BE00F3EA39 /* Debug */,
-				FADB796E297777BE00F3EA39 /* Release */,
+				FA85DA3B2977889E00FE8B88 /* Debug */,
+				FA85DA3C2977889E00FE8B88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FADB796F297777BE00F3EA39 /* Build configuration list for PBXNativeTarget "Motion BGTests" */ = {
+		FA85DA3D2977889E00FE8B88 /* Build configuration list for PBXNativeTarget "Motion BGTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FADB7970297777BE00F3EA39 /* Debug */,
-				FADB7971297777BE00F3EA39 /* Release */,
+				FA85DA3E2977889E00FE8B88 /* Debug */,
+				FA85DA3F2977889E00FE8B88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FADB7972297777BE00F3EA39 /* Build configuration list for PBXNativeTarget "Motion BGUITests" */ = {
+		FA85DA402977889E00FE8B88 /* Build configuration list for PBXNativeTarget "Motion BGUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FADB7973297777BE00F3EA39 /* Debug */,
-				FADB7974297777BE00F3EA39 /* Release */,
+				FA85DA412977889E00FE8B88 /* Debug */,
+				FA85DA422977889E00FE8B88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FADB793F297777BD00F3EA39 /* Project object */;
+	rootObject = FA85DA0D2977889D00FE8B88 /* Project object */;
 }

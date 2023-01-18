@@ -12,6 +12,5 @@ func Start(){
         LoadBackground()
     }
     
-    
     background.start()
 }

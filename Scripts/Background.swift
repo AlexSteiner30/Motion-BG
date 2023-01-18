@@ -1,6 +1,6 @@
 //
-//  Manager.swift
-//  Montion BG
+//  Background.swift
+//  Motion BG
 //
 //  Created by Alex Marco Steiner on 18/01/23.
 //
@@ -12,7 +12,7 @@ import AppKit
 let fileURLStringBase = "/Users/alex.steiner/Desktop/Folder/frame"
 var count = 0
 
-func LoadBG(){
+func LoadBackground(){
     while true{
         do{
             if count > 5{
