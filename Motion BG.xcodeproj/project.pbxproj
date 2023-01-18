@@ -14,7 +14,8 @@
 		FADB795D297777BE00F3EA39 /* Motion_BGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB795C297777BE00F3EA39 /* Motion_BGTests.swift */; };
 		FADB7967297777BE00F3EA39 /* Motion_BGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB7966297777BE00F3EA39 /* Motion_BGUITests.swift */; };
 		FADB7969297777BE00F3EA39 /* Motion_BGUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB7968297777BE00F3EA39 /* Motion_BGUITestsLaunchTests.swift */; };
-		FADB79782977783400F3EA39 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB79772977783400F3EA39 /* Manager.swift */; };
+		FADB797C29777B1D00F3EA39 /* BackgroundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB797B29777B1D00F3EA39 /* BackgroundManager.swift */; };
+		FADB797E29777B3500F3EA39 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB797D29777B3500F3EA39 /* Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +47,8 @@
 		FADB7962297777BE00F3EA39 /* Motion BGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Motion BGUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADB7966297777BE00F3EA39 /* Motion_BGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_BGUITests.swift; sourceTree = "<group>"; };
 		FADB7968297777BE00F3EA39 /* Motion_BGUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_BGUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FADB79772977783400F3EA39 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		FADB797B29777B1D00F3EA39 /* BackgroundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundManager.swift; sourceTree = "<group>"; };
+		FADB797D29777B3500F3EA39 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		FADB793E297777BD00F3EA39 = {
 			isa = PBXGroup;
 			children = (
+				FADB797A29777AF700F3EA39 /* Scripts */,
 				FADB7949297777BD00F3EA39 /* Motion BG */,
 				FADB795B297777BE00F3EA39 /* Motion BGTests */,
 				FADB7965297777BE00F3EA39 /* Motion BGUITests */,
@@ -102,7 +105,6 @@
 				FADB794E297777BE00F3EA39 /* Assets.xcassets */,
 				FADB7950297777BE00F3EA39 /* Main.storyboard */,
 				FADB7953297777BE00F3EA39 /* Motion_BG.entitlements */,
-				FADB79772977783400F3EA39 /* Manager.swift */,
 			);
 			path = "Motion BG";
 			sourceTree = "<group>";
@@ -122,6 +124,15 @@
 				FADB7968297777BE00F3EA39 /* Motion_BGUITestsLaunchTests.swift */,
 			);
 			path = "Motion BGUITests";
+			sourceTree = "<group>";
+		};
+		FADB797A29777AF700F3EA39 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				FADB797B29777B1D00F3EA39 /* BackgroundManager.swift */,
+				FADB797D29777B3500F3EA39 /* Manager.swift */,
+			);
+			path = Scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,9 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADB797C29777B1D00F3EA39 /* BackgroundManager.swift in Sources */,
 				FADB794D297777BD00F3EA39 /* ViewController.swift in Sources */,
-				FADB79782977783400F3EA39 /* Manager.swift in Sources */,
 				FADB794B297777BD00F3EA39 /* AppDelegate.swift in Sources */,
+				FADB797E29777B3500F3EA39 /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
