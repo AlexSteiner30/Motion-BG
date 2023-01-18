@@ -8,12 +8,18 @@
 import Foundation
 import SwiftUI
 
-func Start(){    
+func Start(){
     let background = Thread {
         LoadBackground()
     }
     
+    let update = Thread {
+        Update()
+    }
+    
     background.start()
+    update.start()
+    
 }
 
 func Update(){

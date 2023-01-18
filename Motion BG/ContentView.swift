@@ -7,20 +7,26 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
 
-  @State public var searchTerm = ""
-  private let themes = ["Cartoons", "Games", "Natural", "Films", "Music", "Cars"]
+    @State public var searchTerm = ""
+    private let themes = ["Cartoons", "Games", "Natural", "Films", "Music", "Cars"]
 
-  var body: some View {
-    NavigationView {
-      List {
-        ForEach(themes, id: \.self) { catBreed in
-          Text(catBreed)
+    public var temp:String = ""
+    
+    public var results: [String] {
+       searchTerm.isEmpty ? themes : themes.filter { $0.contains(searchTerm) }
+     }
+    
+    var body: some View {
+        NavigationView {
+            List {
+                ForEach(themes, id: \.self) { theme in Text(theme) }
+            }
+            .searchable(text: $searchTerm)
         }
-      }
-      .searchable(text: $searchTerm)
-      .navigationTitle("Cat Breeds")
     }
-  }
+
 }
