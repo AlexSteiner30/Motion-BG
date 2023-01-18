@@ -6,18 +6,40 @@
 //
 
 import SwiftUI
+struct Tree: Identifiable, Hashable {
+    let id = UUID()
+    var name: String
+    var children: [Tree]? = nil
+}
+
+enum SideBar: Hashable {
+    case number(Int)
+    case tree(Tree)
+}
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+        
+        NavigationSplitView {
+            List(selection: $selection) {
+                
+                Section("Numbers") {
+                    ForEach(1..<6) { number in
+                        NavigationLink("\(number)", value: SideBar.number(number))
+                    }
+                }
+                
+            }
+            
+        } detail: {
+            switch selection  {
+                case .number(let nr):
+                    Text("Number \(nr)")
+                        .navigationTitle("Numbers")
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+                default:
+                    Text("please choose")
+            }
+        }
     }
 }

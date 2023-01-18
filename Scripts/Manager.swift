@@ -6,8 +6,12 @@
 //
 
 import Foundation
+import SwiftUI
 
 func Start(){
+
+
+    
     let background = Thread {
         LoadBackground()
     }
