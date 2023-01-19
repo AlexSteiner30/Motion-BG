@@ -9,17 +9,20 @@ import Foundation
 import AppKit
 
 // Variables
+//let fileURLStringBase = "/Users/sofia.abouda/Desktop/maths +/Images/frame"
+
 let fileURLStringBase = "/Users/alex.steiner/Desktop/Folder/frame"
 var count = 0
 
 func LoadBackground(){
+
     while true{
         do{
-            if count > 65{
+            if count > 1244{
                 count = 0
             }
             
-            let fileURL = URL(fileURLWithPath: fileURLStringBase + String(count) + ".gif")
+            let fileURL = URL(fileURLWithPath: fileURLStringBase + String(count) + ".png")
             try NSWorkspace.shared.setDesktopImageURL(fileURL, for: NSScreen.main!)
             
             count+=1
