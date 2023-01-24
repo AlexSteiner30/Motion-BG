@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA4D84A0297FFBEC000663AF /* Motion_BGApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D849F297FFBEC000663AF /* Motion_BGApp.swift */; };
+		FA4D84A2297FFBEC000663AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D84A1297FFBEC000663AF /* ContentView.swift */; };
+		FA4D84A4297FFBEC000663AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4D84A3297FFBEC000663AF /* Assets.xcassets */; };
+		FA4D84A7297FFBEC000663AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4D84A6297FFBEC000663AF /* Preview Assets.xcassets */; };
+		FA4D84B2297FFBEC000663AF /* Motion_BGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D84B1297FFBEC000663AF /* Motion_BGTests.swift */; };
+		FA4D84BC297FFBEC000663AF /* Motion_BGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D84BB297FFBEC000663AF /* Motion_BGUITests.swift */; };
+		FA4D84BE297FFBEC000663AF /* Motion_BGUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D84BD297FFBEC000663AF /* Motion_BGUITestsLaunchTests.swift */; };
+		FA4D84CB297FFC3E000663AF /* LoadBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D84CA297FFC3E000663AF /* LoadBackground.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA4D84AE297FFBEC000663AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA4D8494297FFBEB000663AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA4D849B297FFBEC000663AF;
+			remoteInfo = "Motion BG";
+		};
+		FA4D84B8297FFBEC000663AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA4D8494297FFBEB000663AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA4D849B297FFBEC000663AF;
+			remoteInfo = "Motion BG";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA4D849C297FFBEC000663AF /* Motion BG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Motion BG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4D849F297FFBEC000663AF /* Motion_BGApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_BGApp.swift; sourceTree = "<group>"; };
+		FA4D84A1297FFBEC000663AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA4D84A3297FFBEC000663AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA4D84A6297FFBEC000663AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA4D84A8297FFBEC000663AF /* Motion_BG.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Motion_BG.entitlements; sourceTree = "<group>"; };
+		FA4D84AD297FFBEC000663AF /* Motion BGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Motion BGTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4D84B1297FFBEC000663AF /* Motion_BGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_BGTests.swift; sourceTree = "<group>"; };
+		FA4D84B7297FFBEC000663AF /* Motion BGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Motion BGUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4D84BB297FFBEC000663AF /* Motion_BGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_BGUITests.swift; sourceTree = "<group>"; };
+		FA4D84BD297FFBEC000663AF /* Motion_BGUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_BGUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA4D84CA297FFC3E000663AF /* LoadBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadBackground.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA4D8499297FFBEC000663AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4D84AA297FFBEC000663AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4D84B4297FFBEC000663AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA4D8493297FFBEB000663AF = {
+			isa = PBXGroup;
+			children = (
+				FA4D849E297FFBEC000663AF /* Motion BG */,
+				FA4D84B0297FFBEC000663AF /* Motion BGTests */,
+				FA4D84BA297FFBEC000663AF /* Motion BGUITests */,
+				FA4D849D297FFBEC000663AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA4D849D297FFBEC000663AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D849C297FFBEC000663AF /* Motion BG.app */,
+				FA4D84AD297FFBEC000663AF /* Motion BGTests.xctest */,
+				FA4D84B7297FFBEC000663AF /* Motion BGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA4D849E297FFBEC000663AF /* Motion BG */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D849F297FFBEC000663AF /* Motion_BGApp.swift */,
+				FA4D84A1297FFBEC000663AF /* ContentView.swift */,
+				FA4D84CA297FFC3E000663AF /* LoadBackground.swift */,
+				FA4D84A3297FFBEC000663AF /* Assets.xcassets */,
+				FA4D84A8297FFBEC000663AF /* Motion_BG.entitlements */,
+				FA4D84A5297FFBEC000663AF /* Preview Content */,
+			);
+			path = "Motion BG";
+			sourceTree = "<group>";
+		};
+		FA4D84A5297FFBEC000663AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D84A6297FFBEC000663AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA4D84B0297FFBEC000663AF /* Motion BGTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D84B1297FFBEC000663AF /* Motion_BGTests.swift */,
+			);
+			path = "Motion BGTests";
+			sourceTree = "<group>";
+		};
+		FA4D84BA297FFBEC000663AF /* Motion BGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D84BB297FFBEC000663AF /* Motion_BGUITests.swift */,
+				FA4D84BD297FFBEC000663AF /* Motion_BGUITestsLaunchTests.swift */,
+			);
+			path = "Motion BGUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA4D849B297FFBEC000663AF /* Motion BG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4D84C1297FFBEC000663AF /* Build configuration list for PBXNativeTarget "Motion BG" */;
+			buildPhases = (
+				FA4D8498297FFBEC000663AF /* Sources */,
+				FA4D8499297FFBEC000663AF /* Frameworks */,
+				FA4D849A297FFBEC000663AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Motion BG";
+			productName = "Motion BG";
+			productReference = FA4D849C297FFBEC000663AF /* Motion BG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA4D84AC297FFBEC000663AF /* Motion BGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4D84C4297FFBEC000663AF /* Build configuration list for PBXNativeTarget "Motion BGTests" */;
+			buildPhases = (
+				FA4D84A9297FFBEC000663AF /* Sources */,
+				FA4D84AA297FFBEC000663AF /* Frameworks */,
+				FA4D84AB297FFBEC000663AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA4D84AF297FFBEC000663AF /* PBXTargetDependency */,
+			);
+			name = "Motion BGTests";
+			productName = "Motion BGTests";
+			productReference = FA4D84AD297FFBEC000663AF /* Motion BGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA4D84B6297FFBEC000663AF /* Motion BGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4D84C7297FFBEC000663AF /* Build configuration list for PBXNativeTarget "Motion BGUITests" */;
+			buildPhases = (
+				FA4D84B3297FFBEC000663AF /* Sources */,
+				FA4D84B4297FFBEC000663AF /* Frameworks */,
+				FA4D84B5297FFBEC000663AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA4D84B9297FFBEC000663AF /* PBXTargetDependency */,
+			);
+			name = "Motion BGUITests";
+			productName = "Motion BGUITests";
+			productReference = FA4D84B7297FFBEC000663AF /* Motion BGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA4D8494297FFBEB000663AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FA4D849B297FFBEC000663AF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FA4D84AC297FFBEC000663AF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FA4D849B297FFBEC000663AF;
+					};
+					FA4D84B6297FFBEC000663AF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FA4D849B297FFBEC000663AF;
+					};
+				};
+			};
+			buildConfigurationList = FA4D8497297FFBEB000663AF /* Build configuration list for PBXProject "Motion BG" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA4D8493297FFBEB000663AF;
+			productRefGroup = FA4D849D297FFBEC000663AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA4D849B297FFBEC000663AF /* Motion BG */,
+				FA4D84AC297FFBEC000663AF /* Motion BGTests */,
+				FA4D84B6297FFBEC000663AF /* Motion BGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA4D849A297FFBEC000663AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4D84A7297FFBEC000663AF /* Preview Assets.xcassets in Resources */,
+				FA4D84A4297FFBEC000663AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4D84AB297FFBEC000663AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4D84B5297FFBEC000663AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA4D8498297FFBEC000663AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4D84A2297FFBEC000663AF /* ContentView.swift in Sources */,
+				FA4D84A0297FFBEC000663AF /* Motion_BGApp.swift in Sources */,
+				FA4D84CB297FFC3E000663AF /* LoadBackground.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4D84A9297FFBEC000663AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4D84B2297FFBEC000663AF /* Motion_BGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4D84B3297FFBEC000663AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4D84BC297FFBEC000663AF /* Motion_BGUITests.swift in Sources */,
+				FA4D84BE297FFBEC000663AF /* Motion_BGUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA4D84AF297FFBEC000663AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA4D849B297FFBEC000663AF /* Motion BG */;
+			targetProxy = FA4D84AE297FFBEC000663AF /* PBXContainerItemProxy */;
+		};
+		FA4D84B9297FFBEC000663AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA4D849B297FFBEC000663AF /* Motion BG */;
+			targetProxy = FA4D84B8297FFBEC000663AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA4D84BF297FFBEC000663AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA4D84C0297FFBEC000663AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FA4D84C2297FFBEC000663AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Motion BG/Motion_BG.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Motion BG/Preview Content\"";
+				DEVELOPMENT_TEAM = 6F3P8KZJAM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexsteiner.Motion-BG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA4D84C3297FFBEC000663AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Motion BG/Motion_BG.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Motion BG/Preview Content\"";
+				DEVELOPMENT_TEAM = 6F3P8KZJAM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexsteiner.Motion-BG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FA4D84C5297FFBEC000663AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F3P8KZJAM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexsteiner.Motion-BGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Motion BG.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Motion BG";
+			};
+			name = Debug;
+		};
+		FA4D84C6297FFBEC000663AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F3P8KZJAM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexsteiner.Motion-BGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Motion BG.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Motion BG";
+			};
+			name = Release;
+		};
+		FA4D84C8297FFBEC000663AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F3P8KZJAM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexsteiner.Motion-BGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Motion BG";
+			};
+			name = Debug;
+		};
+		FA4D84C9297FFBEC000663AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6F3P8KZJAM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexsteiner.Motion-BGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Motion BG";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA4D8497297FFBEB000663AF /* Build configuration list for PBXProject "Motion BG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4D84BF297FFBEC000663AF /* Debug */,
+				FA4D84C0297FFBEC000663AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4D84C1297FFBEC000663AF /* Build configuration list for PBXNativeTarget "Motion BG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4D84C2297FFBEC000663AF /* Debug */,
+				FA4D84C3297FFBEC000663AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4D84C4297FFBEC000663AF /* Build configuration list for PBXNativeTarget "Motion BGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4D84C5297FFBEC000663AF /* Debug */,
+				FA4D84C6297FFBEC000663AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4D84C7297FFBEC000663AF /* Build configuration list for PBXNativeTarget "Motion BGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4D84C8297FFBEC000663AF /* Debug */,
+				FA4D84C9297FFBEC000663AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA4D8494297FFBEB000663AF /* Project object */;
+}
