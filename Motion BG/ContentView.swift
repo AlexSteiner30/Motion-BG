@@ -12,7 +12,7 @@ struct ContentView: View {
         NavigationStack {
             List {
                 NavigationLink {
-                    Text("Home Content")
+                    HomeView()
                 } label: {
                     Label("Home", systemImage: "house")
                 }

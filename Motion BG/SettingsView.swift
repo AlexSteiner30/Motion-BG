@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @State private var basePathInstance = AppSettings.shared.basePath
+    
+    private func handleBasePathChange() {
+        loadBasePath()
+        basePathInstance = AppSettings.shared.basePath
+    }
+    
     var body: some View {
-        Button("Pick Path for GIF Background", action: loadBackgroundFlow)
+        VStack {
+            Text("Picked Path: " + basePathInstance)
+            Spacer()
+            Button("Pick Path for GIF Background", action: handleBasePathChange)
+        }
+        .padding()
     }
 }
 

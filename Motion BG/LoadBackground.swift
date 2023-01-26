@@ -8,11 +8,11 @@
 import Foundation
 import AppKit
 
-func loadBackgroundFlow() {
-    var data = getFileURLString()
+func loadBasePath() {
+    let data = getFileURLString()
     
     if (data.pathReturned != false) {
-        loadBackground(fileURLStringBase: data.path)
+        AppSettings.shared.basePath = data.path
     }
 }
 
@@ -48,23 +48,29 @@ func getFileURLString() -> BackgroundLoaderReturnValues {
     }
 }
 
-var count = 0
-
-func loadBackground(fileURLStringBase: String) {
-    while true{
-        do{
-            if count > 266{
-                count = 0
+func displayBackground() {
+    var count = AppSettings.shared.startFrame
+    
+    while true {
+        do {
+            if count > AppSettings.shared.endFrame {
+                count = AppSettings.shared.startFrame
+            }
+            if !AppSettings.shared.basePathAvailable() {
+                throw Motion_BGError.missingBG
             }
             
-            let fileURL = URL(fileURLWithPath: fileURLStringBase + "/frame" + String(count) + ".gif")
-            try NSWorkspace.shared.setDesktopImageURL(fileURL, for: NSScreen.main!)
+            let fileURL = URL(fileURLWithPath: AppSettings.shared.basePath + "/frame" + String(count) + ".jpg")
+            let screensToTry = NSScreen.screens
+            for screen in screensToTry {
+                try NSWorkspace.shared.setDesktopImageURL(fileURL, for: screen)
+            }
             
-            count+=1
+            count += 1
             
-            usleep(100000)
+            sleep(AppSettings.shared.interval*1000)
         }
-        catch{
+        catch {
             break
         }
     }

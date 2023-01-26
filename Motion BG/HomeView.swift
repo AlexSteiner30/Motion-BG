@@ -9,7 +9,11 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Button("Hide all other apps", action: hideAllOtherApps)
+        VStack {
+            Button("Run Background", action: displayBackground)
+            Button("Hide all other apps", action: hideAllOtherApps)
+        }
+        .padding()
     }
 }
 
