@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import SwiftUI
+import AppKit
 
 func loadBackgroundFlow() {
     var data = getFileURLString()
