@@ -9,10 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            
+        NavigationStack {
+            List {
+                NavigationLink {
+                    Text("Home Content")
+                } label: {
+                    Label("Home", systemImage: "house")
+                }
+                
+                NavigationLink {
+                    SettingsView()
+                } label: {
+                    Label("Settings", systemImage: "gear")
+                }
+            }
+            .listStyle(.plain)
         }
         .padding()
+        .navigationSplitViewStyle(.prominentDetail)
+        
     }
 }
 
