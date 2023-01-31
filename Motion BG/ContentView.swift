@@ -22,6 +22,11 @@ struct ContentView: View {
                 } label: {
                     Label("Settings", systemImage: "gear")
                 }
+                NavigationLink {
+                    AllBackgroundsView()
+                } label: {
+                    Label("Download", systemImage: "brain")
+                }
             }
             .listStyle(.plain)
         }

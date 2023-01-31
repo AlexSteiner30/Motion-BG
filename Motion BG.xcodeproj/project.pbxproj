@@ -18,6 +18,7 @@
 		FA4D84BC297FFBEC000663AF /* Motion_BGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D84BB297FFBEC000663AF /* Motion_BGUITests.swift */; };
 		FA4D84BE297FFBEC000663AF /* Motion_BGUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D84BD297FFBEC000663AF /* Motion_BGUITestsLaunchTests.swift */; };
 		FA4D84CB297FFC3E000663AF /* LoadBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D84CA297FFC3E000663AF /* LoadBackground.swift */; };
+		FA7F1CDA2989057C003D9927 /* AllBackgroundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F1CD92989057C003D9927 /* AllBackgroundsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FA4D84BB297FFBEC000663AF /* Motion_BGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_BGUITests.swift; sourceTree = "<group>"; };
 		FA4D84BD297FFBEC000663AF /* Motion_BGUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_BGUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FA4D84CA297FFC3E000663AF /* LoadBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadBackground.swift; sourceTree = "<group>"; };
+		FA7F1CD92989057C003D9927 /* AllBackgroundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllBackgroundsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				FA4D84A8297FFBEC000663AF /* Motion_BG.entitlements */,
 				FA4D84A5297FFBEC000663AF /* Preview Content */,
 				DBB9B6482983240B00A4F90C /* Common.swift */,
+				FA7F1CD92989057C003D9927 /* AllBackgroundsView.swift */,
 			);
 			path = "Motion BG";
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA4D84A2297FFBEC000663AF /* ContentView.swift in Sources */,
+				FA7F1CDA2989057C003D9927 /* AllBackgroundsView.swift in Sources */,
 				DB2DB31F2982EA9400213094 /* SettingsView.swift in Sources */,
 				FA4D84A0297FFBEC000663AF /* Motion_BGApp.swift in Sources */,
 				DBB9B647298323D400A4F90C /* HomeView.swift in Sources */,

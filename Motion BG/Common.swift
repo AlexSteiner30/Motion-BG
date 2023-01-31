@@ -23,7 +23,7 @@ class AppSettings {
     var currentFrame: UInt16
     var interval: UInt32
     
-    static let shared = AppSettings(basePath: "", startFrame: 1, endFrame: 32, interval: 40000)
+    static let shared = AppSettings(basePath: "", startFrame: 0, endFrame: 266, interval: 50000)
     
     private var playing: Bool
     
