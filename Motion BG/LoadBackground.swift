@@ -49,6 +49,14 @@ func getFileURLString() -> BackgroundLoaderReturnValues {
 }
 
 func displayBackground() {
+    let background = Thread {
+        executeBackground()
+    }
+
+    background.start()
+}
+
+func executeBackground(){
     var count = AppSettings.shared.startFrame
     
     while true {
@@ -60,7 +68,7 @@ func displayBackground() {
                 throw Motion_BGError.missingBG
             }
             
-            let fileURL = URL(fileURLWithPath: AppSettings.shared.basePath + "/frame" + String(count) + ".jpg")
+            let fileURL = URL(fileURLWithPath: AppSettings.shared.basePath + "/frame" + String(count) + ".gif")
             let screensToTry = NSScreen.screens
             for screen in screensToTry {
                 try NSWorkspace.shared.setDesktopImageURL(fileURL, for: screen)
@@ -68,7 +76,7 @@ func displayBackground() {
             
             count += 1
             
-            sleep(AppSettings.shared.interval*1000)
+            usleep(AppSettings.shared.interval);
         }
         catch {
             break
