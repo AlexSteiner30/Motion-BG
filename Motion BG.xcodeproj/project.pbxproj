@@ -19,6 +19,8 @@
 		FA4D84BE297FFBEC000663AF /* Motion_BGUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D84BD297FFBEC000663AF /* Motion_BGUITestsLaunchTests.swift */; };
 		FA4D84CB297FFC3E000663AF /* LoadBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D84CA297FFC3E000663AF /* LoadBackground.swift */; };
 		FA7F1CDA2989057C003D9927 /* AllBackgroundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F1CD92989057C003D9927 /* AllBackgroundsView.swift */; };
+		FAE9DC1729924852001E78A1 /* MongoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FAE9DC1629924852001E78A1 /* MongoSwift */; };
+		FAE9DC1929924852001E78A1 /* MongoSwiftSync in Frameworks */ = {isa = PBXBuildFile; productRef = FAE9DC1829924852001E78A1 /* MongoSwiftSync */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE9DC1929924852001E78A1 /* MongoSwiftSync in Frameworks */,
+				FAE9DC1729924852001E78A1 /* MongoSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +164,10 @@
 			dependencies = (
 			);
 			name = "Motion BG";
+			packageProductDependencies = (
+				FAE9DC1629924852001E78A1 /* MongoSwift */,
+				FAE9DC1829924852001E78A1 /* MongoSwiftSync */,
+			);
 			productName = "Motion BG";
 			productReference = FA4D849C297FFBEC000663AF /* Motion BG.app */;
 			productType = "com.apple.product-type.application";
@@ -232,6 +240,9 @@
 				Base,
 			);
 			mainGroup = FA4D8493297FFBEB000663AF;
+			packageReferences = (
+				FAE9DC1529924852001E78A1 /* XCRemoteSwiftPackageReference "mongo-swift-driver" */,
+			);
 			productRefGroup = FA4D849D297FFBEC000663AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -596,6 +607,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAE9DC1529924852001E78A1 /* XCRemoteSwiftPackageReference "mongo-swift-driver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mongodb/mongo-swift-driver";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAE9DC1629924852001E78A1 /* MongoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAE9DC1529924852001E78A1 /* XCRemoteSwiftPackageReference "mongo-swift-driver" */;
+			productName = MongoSwift;
+		};
+		FAE9DC1829924852001E78A1 /* MongoSwiftSync */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAE9DC1529924852001E78A1 /* XCRemoteSwiftPackageReference "mongo-swift-driver" */;
+			productName = MongoSwiftSync;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA4D8494297FFBEB000663AF /* Project object */;
 }

@@ -7,11 +7,9 @@
 
 import SwiftUI
 
-
-
 struct AllBackgroundsView: View {
     var body: some View {
-        Grid {
+        Grid {  
             GridRow {
                 Text("Cell #1")
                     .frame(maxWidth: 200, maxHeight: 200)
@@ -30,7 +28,6 @@ struct AllBackgroundsView: View {
                 Text("Cell #3")
                     .frame(maxWidth: 200, maxHeight: 200)
             }
-
                 .border(.green)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
