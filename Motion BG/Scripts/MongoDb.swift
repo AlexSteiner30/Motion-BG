@@ -8,11 +8,18 @@
 import Foundation
 import MongoSwiftSync
 
-defer {
-    cleanupMongoSwift()
+func connectToMongo(){
+    defer {
+        cleanupMongoSwift()
+    }
+    
+    do{
+        let uri = "mongodb+srv://<username>:<password>@<cluster-address>/test?w=majority"
+        let client = try MongoClient(uri)
+        
+        print (try client.listDatabaseNames())
+    }
+    catch{
+          print("Error")
+    }
 }
-
-let uri = "mongodb+srv://<username>:<password>@<cluster-address>/test?w=majority"
-let client = try MongoClient(uri)
-
-print (try client.listDatabaseNames())
