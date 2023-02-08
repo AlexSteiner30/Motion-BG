@@ -10,6 +10,7 @@
 		DB2DB31F2982EA9400213094 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2DB31E2982EA9400213094 /* SettingsView.swift */; };
 		DBB9B647298323D400A4F90C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB9B646298323D400A4F90C /* HomeView.swift */; };
 		DBB9B6492983240B00A4F90C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB9B6482983240B00A4F90C /* Common.swift */; };
+		FA2BE6EF2993E6C900E559CF /* MongoDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BE6EE2993E6C900E559CF /* MongoDB.swift */; };
 		FA4D84A0297FFBEC000663AF /* Motion_BGApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D849F297FFBEC000663AF /* Motion_BGApp.swift */; };
 		FA4D84A2297FFBEC000663AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D84A1297FFBEC000663AF /* ContentView.swift */; };
 		FA4D84A4297FFBEC000663AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4D84A3297FFBEC000663AF /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		DB2DB31E2982EA9400213094 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		DBB9B646298323D400A4F90C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DBB9B6482983240B00A4F90C /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		FA2BE6EE2993E6C900E559CF /* MongoDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoDB.swift; sourceTree = "<group>"; };
 		FA4D849C297FFBEC000663AF /* Motion BG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Motion BG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4D849F297FFBEC000663AF /* Motion_BGApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion_BGApp.swift; sourceTree = "<group>"; };
 		FA4D84A1297FFBEC000663AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +88,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA2BE6E92993E66000E559CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F1CD92989057C003D9927 /* AllBackgroundsView.swift */,
+				DBB9B646298323D400A4F90C /* HomeView.swift */,
+				DB2DB31E2982EA9400213094 /* SettingsView.swift */,
+				FA4D84A1297FFBEC000663AF /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA2BE6EA2993E67B00E559CF /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D84CA297FFC3E000663AF /* LoadBackground.swift */,
+				DBB9B6482983240B00A4F90C /* Common.swift */,
+				FA2BE6EE2993E6C900E559CF /* MongoDB.swift */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		FA2BE6EB2993E68F00E559CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA4D84A3297FFBEC000663AF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		FA4D8493297FFBEB000663AF = {
 			isa = PBXGroup;
 			children = (
@@ -109,16 +140,12 @@
 		FA4D849E297FFBEC000663AF /* Motion BG */ = {
 			isa = PBXGroup;
 			children = (
+				FA2BE6EB2993E68F00E559CF /* Resources */,
+				FA2BE6EA2993E67B00E559CF /* Scripts */,
+				FA2BE6E92993E66000E559CF /* Views */,
 				FA4D849F297FFBEC000663AF /* Motion_BGApp.swift */,
-				FA4D84A1297FFBEC000663AF /* ContentView.swift */,
-				FA4D84CA297FFC3E000663AF /* LoadBackground.swift */,
-				DB2DB31E2982EA9400213094 /* SettingsView.swift */,
-				DBB9B646298323D400A4F90C /* HomeView.swift */,
-				FA4D84A3297FFBEC000663AF /* Assets.xcassets */,
 				FA4D84A8297FFBEC000663AF /* Motion_BG.entitlements */,
 				FA4D84A5297FFBEC000663AF /* Preview Content */,
-				DBB9B6482983240B00A4F90C /* Common.swift */,
-				FA7F1CD92989057C003D9927 /* AllBackgroundsView.swift */,
 			);
 			path = "Motion BG";
 			sourceTree = "<group>";
@@ -291,6 +318,7 @@
 				FA4D84A0297FFBEC000663AF /* Motion_BGApp.swift in Sources */,
 				DBB9B647298323D400A4F90C /* HomeView.swift in Sources */,
 				DBB9B6492983240B00A4F90C /* Common.swift in Sources */,
+				FA2BE6EF2993E6C900E559CF /* MongoDB.swift in Sources */,
 				FA4D84CB297FFC3E000663AF /* LoadBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
